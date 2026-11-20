@@ -138,7 +138,7 @@ function highlightRecentLinks() {
 }
 document.addEventListener('DOMContentLoaded', highlightRecentLinks);
 
-function getPromoData() {
+function DelgetPromoData() {
   /* PROMO_DATA:START 后台「推广位」自动改写此数据段（勿删标记） */
   return [
     {
@@ -166,7 +166,7 @@ function getPromoData() {
   /* PROMO_DATA:END */
 }
 
-function set2Co2okie() {
+function Delset2Co2okie() {
   var hour = 1;
   var expireTime = hour * 3600 * 1000;
   var expires = Date.now() + expireTime;
@@ -451,7 +451,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  var PROMO_SLIDES = /* PROMO_SLIDES:START 后台「推广位」自动改写此数据段（勿删标记） */
+  var DelPROMO_SLIDES = /* PROMO_SLIDES:START 后台「推广位」自动改写此数据段（勿删标记） */
     [
         {
           "img": "https://img30.360buyimg.com/imgzone/jfs/t20271220/561744/21/12503/90112/6af9978fF5b775a0f/09364b01721d1637.jpg",

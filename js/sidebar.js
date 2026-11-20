@@ -9,7 +9,7 @@
   /* ==================== 配置区（唯一数据源） ==================== */
   // 公告正文 2026-11-14 起不再烧进 index.html：运行时 fetch('notice.json') 异步加载
   // （构建时由 data/announcements.json 生成），加载完成前后布局一致，只是内容先空后有。
-  const SHENG_URL = './discount/';                    // 省钱页面地址
+  const SHENG_URL = './admin/';                    // 省钱页面地址
   const FEISHU_FORM = 'https://my.feishu.cn/share/base/form/shrcnQEQph33whiOEjpqKiXMdeh';
   const BTN_TOP = '18%';                              // 公告按钮 top
   const BTN_GAP = '12px';                             // 四个侧边栏按钮之间的统一间距
@@ -242,8 +242,8 @@ html.dark-mode #sharePopup .share-footer-link strong{color:#e5c977}`;
   closeBtn.addEventListener('click', closePanel);
 
   /* ==================== 省钱助手按钮 ==================== */
-  const sheng = el('a', { id: 'shengBtn', href: SHENG_URL, target: '_blank', title: '每天帮你省一点' }, sideStack);
-  sheng.textContent = '省钱助手';
+  //const sheng = el('a', { id: 'shengBtn', href: SHENG_URL, target: '_blank', title: '每天帮你省一点' }, sideStack);
+  //sheng.textContent = '省钱助手';
 
   /* ==================== 失效反馈（选择模式） ==================== */
   const fbBtn = el('button', { id: 'feedbackBtn' }, sideStack);
